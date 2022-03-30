@@ -1,0 +1,33 @@
+.form-student label{
+    margin-bottom: 0.5em;
+    font-size: 1.4em;
+}
+
+.form-student input{
+    margin-bottom: 1em;
+    padding: 0.7em;
+    border: none;
+    border-radius: 5px;
+    max-width: 200px;
+}
+
+.form-student input{
+    border: 1px solid #00488B;
+}
+
+.form-student input:hover{
+    box-shadow: 1px 1px 3px #00488b71;
+}
+
+.form-student button{
+    max-width: 200px;
+    margin-bottom: 1em;
+}
+
+.selected{
+    max-width: 200px;
+}
+
+.linkCSV{
+    margin-left: 1em;
+}
