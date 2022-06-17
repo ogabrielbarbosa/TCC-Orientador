@@ -9,8 +9,8 @@ import logo from '../../assets/logo.png';
 import { toast } from 'react-toastify';
 
 function SignIn() {
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
+  const [email, setEmail] = useState('testeorientador@gmail.com');
+  const [password, setPassword] = useState('12345teste');
   
   const { signIn, loadingAuth } = useContext(AuthContext);
 
